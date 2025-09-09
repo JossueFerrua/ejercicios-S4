@@ -1,1 +1,26 @@
 uso de if y operadores 
+
+ Console.WriteLine("cual es tu edad?");
+ int edad;
+ edad = Convert.ToInt32(Console.ReadLine());
+
+ if (edad > 5 & edad < 10)
+ {
+     Console.WriteLine("usted tiene un descuento del 20%");
+ }
+ if (edad >= 15& edad <= 30)
+ {
+     Console.WriteLine("usted tiene un descuento del 5%");
+ }
+ if (edad <= 4)
+ {
+     Console.WriteLine("usted tiene un descuento del 25%");
+ }
+ if (edad == 50)
+ {
+     Console.WriteLine("usted tiene un descuento del 50%");
+ }
+ if (edad != 50)
+ {
+     Console.WriteLine("usted no tiene descuento%");
+ }
