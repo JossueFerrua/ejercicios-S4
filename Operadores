@@ -8,7 +8,7 @@ uso de if y operadores
  {
      Console.WriteLine("usted tiene un descuento del 20%");
  }
- if (edad >= 15& edad <= 30)
+ if (edad >= 15 & edad <= 30)
  {
      Console.WriteLine("usted tiene un descuento del 5%");
  }
